@@ -1,0 +1,50 @@
+Id CommandLine
+  -- -----------
+   1 try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+   2 py .\test.py
+   3 ls -la
+   4 ls -l
+   5 ls
+   6 ls -l
+   7 ls -l
+   8 ls -la
+   9 la
+  10 ll
+  11 ls
+  12 git init
+  13 dir
+  14 dir -a
+  15 dir -v
+  16 dir --h
+  17 dir -h
+  18 dir -l
+  19 dir /a
+  20 dir /a
+  21 dir \a
+  22 dir /b /s
+  23 dir
+  24 dir /p
+  25 tree /f
+  26 git status
+  27 rm .\test.py
+  28 dir
+  29 ls
+  30 git status
+  31 py .\test.py
+  32 git status
+  33 git add .\test.py
+  34 git status
+  35 git rm --cached .\test.py
+  36 git status
+  37 git add .\test.py
+  38 git status
+  39 git commit -m "adding file"
+  40 git status
+  41 ls
+  42 rm .\test.py
+  43 ls
+  44 ls
+  45 git status
+  46 git restore test.py
+  47 ls
+  48 history
